@@ -3,9 +3,9 @@ fn main() {
 
     let mut x = 0;
     loop {
-        x+=1;
-        println!("x={}",x );
-        if x==20 {
+        x+=2;
+        println!("{}",x );
+        if x==100 {
             break;
         }
     }
