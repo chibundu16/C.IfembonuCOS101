@@ -1,4 +1,4 @@
-use std::io;
+
 fn main() {
     let v = vec!['C', 'O','M','P', 'U', 'T', 'E', 'R'];
 
@@ -10,5 +10,5 @@ fn main() {
     let index:usize = input1.trim().parse().expect("Invalid Input");
     let ch:char = v[index];
 
-    print!("[] is the charachter for index [{}]\n", ch,index);
+    print!("{} is the charachter for index [{}]\n", ch,index);
 }
